@@ -56,12 +56,13 @@ p{
     
 }
 .hero-section h1{
-    font-size: 1.9rem;
+    font-size: 1.4rem;
     color: white;
 }
 .hero-section :nth-child(3){
     color: hsl(75, 94%, 57%);
     margin: 15px 0;
+    font-size: 14px;
 }
 .hero-section :nth-child(4){
     color: white;

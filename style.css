@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'inter';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "inter";
+}
+body{
+    background: hsl(0, 0%, 8%);
+}
+p{
+    Font-size: 0.9rem;
+}
+.main-container{
+    background: hsl(0, 0%, 12%);
+    padding: 20px 30px 20px 30px;
+    border-radius:15px ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.hero-section,.links{
+    text-align: center;
+}
+.hero-section{
+    margin-bottom:10px;
+}
+.hero-section img{
+    border-radius: 50%;
+    width: 90px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.links{
+    background: hsl(0, 0%, 20%);
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+.web-link{
+    display: flex;
+    flex-direction: column;
+    
+}
+.hero-section h1{
+    font-size: 1.9rem;
+    color: white;
+}
+.hero-section :nth-child(3){
+    color: hsl(75, 94%, 57%);
+    margin: 15px 0;
+}
+.hero-section :nth-child(4){
+    color: white;
+    margin-bottom: 30px;
+}
